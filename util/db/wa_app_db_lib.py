@@ -1,5 +1,4 @@
 import psycopg2
-from llama_index.vector_stores.postgres import PGVectorStore
 from sqlalchemy import make_url
 
 
@@ -10,33 +9,6 @@ import struct
 from itertools import chain, repeat
 import pyodbc
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-
-db_name = "dev.db"
-db_local_dev = "postgresql://postgres:postgressneha@localhost:5432/dev.db"
-
-def get_db_connection_postgres():
-    conn = psycopg2.connect(host="localhost", port="5432", dbname=db_name, user="postgres",password = "postgressneha" )
-    conn.autocommit = True
-    return conn
-
-def get_vector_store(table : str):
-    connection_string = "postgresql://postgres:postgressneha@127.0.0.1:5432"
-    url = make_url(connection_string)
-    vector_store = PGVectorStore.from_params(
-        database=db_name,
-        host=url.host,
-        password=url.password,
-        port=url.port,
-        user=url.username,
-        table_name=table,
-        embed_dim=1536,  # openai embedding dimension
-    )
-    return vector_store
-
 
 def get_db_connection():
     credential = AzureCliCredential()
