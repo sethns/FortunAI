@@ -1,4 +1,4 @@
-# fortunai
+# FortunAI
  Wealth Assitant Advisor Powered by GenAI
 
 Description
