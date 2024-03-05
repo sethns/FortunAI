@@ -60,22 +60,6 @@ def get_completion_llm(model="GPT4"):
         )
     return llm
 
-# def get_service_context_OLD(model="GPT4"):
-#     print("Getting Service Context")
-#     llm = get_completion_llm(model)
-#     embed_model = get_embedding_model()
-
-#     service_context = ServiceContext.from_defaults(
-#         #chunk_size=1024,
-#         llm=llm,
-#         embed_model=embed_model
-#     )
-#     print("Setting Global Service Context")
-
-#     set_global_service_context(service_context)
-#     return service_context
-
-
 def get_service_context():
     print("Getting Service Context")
     llm = get_completion_llm("GPT35")
