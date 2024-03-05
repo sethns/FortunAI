@@ -13,19 +13,6 @@ from llama_index.core import SimpleDirectoryReader, load_index_from_storage, Vec
 from llama_index.vector_stores.faiss import FaissVectorStore
 from llama_index.readers.file import UnstructuredReader
 
-# mydb = cs50.SQL(dblib.db_local_dev)  # For PostgreSQL
-
-def get_docs_postgres():
-    conn = dblib.get_db_connection_postgres()
-    sql= "SELECT category, entity, doc_name, doc_source FROM DOCUMENTS"
-    with conn.cursor() as c:
-        c.execute(sql)
-        rows = c.fetchall()
-        #print(results)
-        columns = [column[0] for column in c.description]
-        df = pd.DataFrame(rows, columns=columns)
-        return df
-
 
 def get_docs():
     conn = dblib.get_db_connection()
@@ -72,7 +59,6 @@ def add_to_faiss(doc_name: str, msg_documents : List[Document]):
         index.storage_context.persist(persist_dir="./storage/doc")
 
 
-
 def upload_file(file, category, entity, doc_source):
     # path="../upload/doc/"
     # current_path = os.getcwd() 
@@ -80,7 +66,6 @@ def upload_file(file, category, entity, doc_source):
 
 
     path = os.getcwd().replace("\\", "/") + "/destination/"
-    # path = "C:/Users/sneha/Desktop/wealth_assistant/destination/"
 
     #Insert row into db
     #file=st.session_state.file_upload_widget
@@ -121,8 +106,6 @@ def upload_file(file, category, entity, doc_source):
         neg="{:.2f}".format(r["negative"][0])
         neu="{:.2f}".format(r["neutral"][0])
 
-        #db = cs50.SQL("sqlite:///file.db")  # For SQLite, file.db must exist
-        #db = cs50.SQL("mysql://username:password@host:port/database")  # For MySQL
         # pos = 0.2
         # neg = 0.3
         # neu = 0.8
@@ -140,11 +123,7 @@ def upload_file_fabric(base_path, category, entity):
     """
     print("UPLOAD FUNCTION LOADING")
     
-    # base_path = r"C:/Users/sethn/Downloads/wealth_assistant/upload/"
-    # base_path = r"C:/Users/sneha/Desktop/wealth_assistant/upload"
-
     d_path = os.getcwd().replace("\\", "/") + "/destination/"
-    # d_path = r"C:/Users/sneha/Desktop/wealth_assistant/destination"
 
     for root, _, files in os.walk(base_path):
         print("going to read files in the location")
@@ -204,15 +183,9 @@ def upload_file_fabric(base_path, category, entity):
                     c1.execute(sql1, params)
                     conn1.commit()
 
-                #db = cs50.SQL("sqlite:///file.db")  # For SQLite, file.db must exist
-                #db = cs50.SQL("mysql://username:password@host:port/database")  # For MySQL
-                #mydb.execute("UPDATE DOCUMENTS SET sentiment_positive = ?, sentiment_negative = ?, sentiment_neutral = ? WHERE doc_name = ?", pos, neg, neu, doc_name)
                 print("File processing completed")
             else:    
                 print("No file to Upload")
-                
-
-
 
 def get_faiss_index():
     vector_store = FaissVectorStore.from_persist_dir("./storage/doc")
