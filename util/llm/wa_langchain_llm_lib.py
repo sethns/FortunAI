@@ -11,7 +11,7 @@ def get_chat_llm():
         deployment_name="FabricGPT",
         openai_api_type= "azure",
         openai_api_base= "https://fabric-demo.openai.azure.com/",
-        openai_api_key= "xxx"
+        openai_api_key= "c2d46877987b4fa9aa7a81141b5d2964"
     )
     
     return llm
