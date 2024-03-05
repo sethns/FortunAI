@@ -15,14 +15,4 @@ def get_chat_llm():
     )
     
     return llm
-  
 
-
-    
-# model = AzureChatOpenAI(
-# openai_api_base=OPENAI_API_BASE,
-# openai_api_version="2023-07-01-preview",
-# azure_deployment=GPT_DEPLOYMENT_NAME,
-# openai_api_key=OPENAI_API_KEY,
-# openai_api_type="azure",
-# )
