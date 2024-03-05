@@ -140,7 +140,7 @@ def get_email_summary(email_query):
     response = query_engine.query(email_query)
     return str(response)
 
-def get_answer_from_email_pg(email_query):
+def get_answer_from_email_db(email_query):
     # load index from DB
     vector_store = dblib.get_vector_store("wa_email_vs")
     index = VectorStoreIndex.from_vector_store(vector_store=vector_store)
@@ -149,8 +149,8 @@ def get_answer_from_email_pg(email_query):
     response = query_engine.query(email_query)
     return response
 
-def add_to_pg_vector_store(msg_documents : List[Document]):
-    print("ADDING TO PGVECTOR")
+def add_to_db_vector_store(msg_documents : List[Document]):
+    print("ADDING TO VECTOR")
     vector_store = dblib.get_vector_store("wa_email_vs")
     print(vector_store)
     #storage_context = StorageContext.from_defaults(vector_store=vector_store)
@@ -163,8 +163,4 @@ def add_to_pg_vector_store(msg_documents : List[Document]):
     # )
     print(index.summary)
     print(index)
-    #index.storage_context.persist() - No need to call automatically persisted
-
-    # index = VectorStoreIndex.from_vector_store(vector_store=vector_store)
-    # query_engine = index.as_query_engine()
 
