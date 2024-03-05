@@ -13,20 +13,6 @@ from llama_index.core import SimpleDirectoryReader, load_index_from_storage, Vec
 from llama_index.vector_stores.faiss import FaissVectorStore
 from llama_index.readers.file import UnstructuredReader
 
-# mydb = cs50.SQL(dblib.db_local_dev)  # For PostgreSQL
-
-# def get_docs_postgres():
-#     conn = dblib.get_db_connection_postgres()
-#     sql= "SELECT category, entity, doc_name, doc_source FROM DOCUMENTS"
-#     with conn.cursor() as c:
-#         c.execute(sql)
-#         rows = c.fetchall()
-#         #print(results)
-#         columns = [column[0] for column in c.description]
-#         df = pd.DataFrame(rows, columns=columns)
-#         return df
-
-
 def get_docs():
     conn = dblib.get_db_connection()
     sql= "SELECT category, entity, doc_name, doc_source FROM [wealth_advisor_warehouse].[dbo].[documents]"
@@ -47,7 +33,6 @@ def add_to_faiss(doc_name: str, msg_documents : List[Document]):
 
     try:
         vector_store = FaissVectorStore.from_persist_dir("./storage/doc")
-        # vector_store = FaissVectorStore.from_persist_dir("./storage/doc")
         storage_context = StorageContext.from_defaults(
             vector_store=vector_store, persist_dir="./storage/doc"
         )
@@ -72,15 +57,8 @@ def add_to_faiss(doc_name: str, msg_documents : List[Document]):
         index.storage_context.persist(persist_dir="./storage/doc")
 
 
-
 def upload_file(file, category, entity, doc_source):
-    # path="../upload/doc/"
-    # current_path = os.getcwd() 
-    # current_filepath = current_path.replace("\\", "/")
-
-
     path = os.getcwd().replace("\\", "/") + "/destination/"
-    # path = "C:/Users/sneha/Desktop/wealth_assistant/destination/"
 
     #Insert row into db
     #file=st.session_state.file_upload_widget
@@ -93,8 +71,6 @@ def upload_file(file, category, entity, doc_source):
         with open(path+doc_name, "wb") as filehandle: 
             filehandle.write(file.getbuffer())
             filehandle.close()
-            #filebuffer = ["a line of text", "another line of text", "a third line"]
-            #filehandle.writelines(f"{line for line in filebuffer}\n")
         if(entity=="..."):
             entity=None
         
@@ -106,14 +82,7 @@ def upload_file(file, category, entity, doc_source):
 
         dbconn = dblib.get_db_connection()
         with dbconn.cursor() as c:
-            # val = (category, doc_name, entity, doc_source)
-            # sql = "INSERT INTO [dbo].[documents] (category, doc_name, entity, doc_source) VALUES (%s , %s, %s, %s)"
-            # c.execute(sql, val)
             c.execute("INSERT INTO [wealth_advisor_warehouse].[dbo].[documents] (category, doc_name, entity, doc_source) VALUES (?, ?, ?, ?)", category, doc_name, entity, "Upload")       
-            # c.execute("""INSERT INTO [dbo].[documents] (category, doc_name, entity, doc_source)
-            #     VALUES (%(category)s, %(doc_name)s, %(entity)s, %(doc_source)s);""",
-            #     {"category": category, "doc_name": doc_name,  "entity": entity,  "doc_source": "Upload"})   
-
         r = slib.generate_sentiment(path+doc_name)
         #generate_embeddings(file.name)
         print(r)
