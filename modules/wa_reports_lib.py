@@ -1,10 +1,8 @@
 import os
 from langchain.prompts import PromptTemplate
-#from langchain.llms.bedrock import Bedrock
 from langchain.chains.summarize import load_summarize_chain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import PyPDFLoader
-#from langchain.schema import HumanMessage
 
 from util.llm.wa_langchain_llm_lib import get_chat_llm
 
@@ -46,7 +44,7 @@ def generate_report():
     document.save("report.docx")
 
 def get_example_file_bytes(): #provide the file bytes so the user can download a ready-made example
-    with open("2022-Shareholder-Letter.pdf", "rb") as file:
+    with open("uploaded_file.pdf", "rb") as file:
         file_bytes = file.read()
     
     return file_bytes
