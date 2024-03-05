@@ -1,7 +1,5 @@
 import util.db.wa_app_db_lib as dblib
 
-#from ..filters import equalizer
-
 import fitz
 import pandas as pd
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
@@ -58,30 +56,12 @@ def generate_sentiment(file_name):
 
 
 def get_all_sentiments():
-    # sqlite_sql = '''select category as Category, 
-    #     entity as Entity, 
-    #     count(doc_name) as Count, 
-    #     ROUND(avg(sentiment_positive),2) as Positive,  
-    #     ROUND(avg(sentiment_neutral),2) as Neutral, 
-    #     ROUND(avg(sentiment_negative),2) as Negative 
-    #     from DOCUMENTS
-    #     group by category, entity order by category, entity'''
-
     # 'application' code
     logger.debug('debug message')
     logger.info('info message')
     logger.warning('warn message')
     logger.error('error message')
     logger.critical('critical message')
-
-    # sql = '''select category as Category, 
-    #     entity as Entity, 
-    #     count(doc_name) as Count, 
-    #     ROUND(CAST (AVG(sentiment_positive) as NUMERIC), 2) as Positive, 
-    #     ROUND(CAST (avg(sentiment_neutral) as NUMERIC), 2) as Neutral, 
-    #     ROUND(CAST (avg(sentiment_negative) as NUMERIC), 2) as Negative 
-    #     from [wealth_advisor_warehouse].[dbo].[documents]
-    #     group by category, entity order by category, entity'''
 
     sql = '''select category as Category, 
         entity as Entity, 
@@ -97,26 +77,9 @@ def get_all_sentiments():
         sentiment_list_rows = c.execute(sql)
         sentiment_list = [list(t) for t in sentiment_list_rows]
 
-    # sentiment_list = mydb.execute(sql)
-
-
+    
     print("The overall sentiment obtained is : \n",sentiment_list)
     return sentiment_list
-
-# def fetch_sentiment_data():
-#     import sqlite3
-#     conn = sqlite3.connect("documents.db")
-#     query = '''select category,entity,avg(sentiment_positive),avg(sentiment_negative),avg(sentiment_neutral),count(DocumentName) from documents
-# group by category,entity'''
-#     cursor = conn.cursor()
-#     result = cursor.execute(query)
-#     rows = result.fetchall()
-#     columns = [column[0] for column in cursor.description]
-#     df = pd.DataFrame(rows, columns=columns)
-#     with pd.option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
-#         print(df)
-#     conn.close()
-#     return df
 
 def generate_chart(df):
     # Melt the dataframe  
