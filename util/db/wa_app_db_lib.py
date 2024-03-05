@@ -1,9 +1,3 @@
-import psycopg2
-from llama_index.vector_stores.postgres import PGVectorStore
-from sqlalchemy import make_url
-
-
-#importing necessary packages --- NEW
 import pandas as pd
 from azure.identity import AzureCliCredential
 import struct
@@ -11,6 +5,7 @@ from itertools import chain, repeat
 import pyodbc
 import os
 from dotenv import load_dotenv
+from sqlalchemy import make_url
 load_dotenv()
 
 def get_db_connection():
