@@ -20,7 +20,6 @@ def get_docs():
         c.execute(sql)
         rows_list = c.fetchall()
         rows = [list(t) for t in rows_list]
-        #print(results)
         columns = [column[0] for column in c.description]
         df = pd.DataFrame(rows, columns=columns)
         return df
