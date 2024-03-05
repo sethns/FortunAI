@@ -18,10 +18,7 @@ from llama_index.readers.file import UnstructuredReader
 
 import cs50
 
-# mydb = cs50.SQL(dblib.db_local_dev)  # For PostgreSQL
 pdf_path = "uploaded_file.msg"
-
-
 
 def add_to_faiss(msg_documents : List[Document]):
     # dimensions of text-ada-embedding-002
@@ -53,8 +50,6 @@ def add_to_faiss(msg_documents : List[Document]):
         #print(index)
         index.storage_context.persist(persist_dir="./storage/email")
 
-
-
 def save_email(eml_file):
     # f = r'GenAI.msg'  # Replace
     msg = email_parser.Message(eml_file)
@@ -73,21 +68,7 @@ def save_email(eml_file):
     date_sent = "2024-03-04T12:30:00.000Z"
     with dbconn.cursor() as c:
 
-        # c.execute("INSERT INTO [wealth_advisor_warehouse].[dbo].[documents] (category, doc_name, entity, doc_source) VALUES (?, ?, ?, ?)", category, doc_name, entity, "Upload")       
-
         id = c.execute("INSERT INTO [wealth_advisor_warehouse].[dbo].[Emails] (sender, recipients, subject, date_sent, summary) VALUES  (?, ?, ?, ?, ?);", sender, recipients , subject, "2024-03-04T12:30:00.000Z", summary)       
-
-        # id = c.execute("INSERT INTO [wealth_advisor_warehouse].[dbo].[Emails] (sender, recipients, subject, date_sent, summary) VALUES (?, ?, ?, ?, ?)", sender, recipients, subject, date_sent, summary)       
-
-        # id = c.execute("""
-        #     INSERT INTO [wealth_advisor_warehouse].[dbo].[Emails] (sender, recipients, subject, date_sent, summary)
-        #     VALUES (%(sender)s, %(recipients)s, %(subject)s, %(date_sent)s, %(summary)s);
-        #     """,
-        #     {"sender": sender, "recipients": recipients,  "subject": subject,  "date_sent": date_sent, "summary": summary})
-
-        # print("*****************************************************************************") 
-        # print(f"######################ID ::::: {id}")  
-         
 
 def upload_email(name: str, file_bytes):
     path = os.getcwd().replace("\\", "/") + "/upload/email/"
@@ -172,34 +153,9 @@ def add_to_pg_vector_store(msg_documents : List[Document]):
     index = VectorStoreIndex.from_vector_store(vector_store=vector_store)
     for doc in msg_documents:
         index.insert(doc) # for doc in msg_documents )
-    # index = VectorStoreIndex.from_documents(
-    #     msg_documents, storage_context=storage_context
-    # )
+
     print(index.summary)
     print(index)
-    #index.storage_context.persist() - No need to call automatically persisted
-
-    # index = VectorStoreIndex.from_vector_store(vector_store=vector_store)
-    # query_engine = index.as_query_engine()
+   
 
 
-#  CREATE TABLE EMAILS (
-#    id SERIAL PRIMARY KEY,
-#    sender varchar(100) DEFAULT NULL,
-#    recipients varchar(500) DEFAULT NULL,
-#    subject varchar(250) DEFAULT NULL,
-#    date_sent TIMESTAMP DEFAULT NULL,
-#    summary varchar(4000) DEFAULT NULL
-#  );
-
-    # llmlib.get_service_context()
-    # conn = db.get_db_connection()
-    # with conn.cursor() as c:
-    #     #c.execute(f"CREATE DATABASE {db_name}")
-    #     #c.execute("INSERT INTO DOCUMENTS (doc_id, category, doc_name, entity, doc_source) VALUES (?, ?, ?, ?, ?)", doc_id, category, file.name, entity, "Upload")       
-    #     #c.execute("INSERT INTO authors (first_name, last_name) VALUES (?, ?)", "Bivas", "Nath")   
-    #     c.execute("""
-    #             INSERT INTO authors (first_name, last_name)
-    #             VALUES (%(first)s, %(last)s);
-    #             """,
-    #             {"first": "Bivas", "last": "Nath"})    
