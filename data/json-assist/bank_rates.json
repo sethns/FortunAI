@@ -1,0 +1,4280 @@
+{
+    "competitorProdRates": {
+      "message": "Success",
+      "status": "0",
+      "rates": [
+        {
+          "rateId": "CD",
+          "productCode": "CD",
+          "banks": [
+            {
+              "bankName": "Wells Fargo",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.5,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.5,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.5,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-3M",
+                  "term": 3,
+                  "termCode": "3M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "CD-6M",
+                  "term": 6,
+                  "termCode": "6M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-12M",
+                  "term": 12,
+                  "termCode": "12M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Citibank",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    }
+                  ],
+                  "termId": "CD-3M",
+                  "term": 3,
+                  "termCode": "3M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.05,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    }
+                  ],
+                  "termId": "CD-6M",
+                  "term": 6,
+                  "termCode": "6M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 999999,
+                      "min": 500000
+                    }
+                  ],
+                  "termId": "CD-9M",
+                  "term": 9,
+                  "termCode": "9M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2.75,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.75,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.75,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.75,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 3.75,
+                      "max": 999999,
+                      "min": 500000
+                    }
+                  ],
+                  "termId": "CD-12M",
+                  "term": 12,
+                  "termCode": "12M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    }
+                  ],
+                  "termId": "CD-18M",
+                  "term": 18,
+                  "termCode": "18M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 49999,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-36M",
+                  "term": 36,
+                  "termCode": "36M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    }
+                  ],
+                  "termId": "CD-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-60M",
+                  "term": 60,
+                  "termCode": "60M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Chase",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    }
+                  ],
+                  "termId": "CD-3M",
+                  "term": 3,
+                  "termCode": "3M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-6M",
+                  "term": 6,
+                  "termCode": "6M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-9M",
+                  "term": 9,
+                  "termCode": "9M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    }
+                  ],
+                  "termId": "CD-12M",
+                  "term": 12,
+                  "termCode": "12M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-18M",
+                  "term": 18,
+                  "termCode": "18M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    }
+                  ],
+                  "termId": "CD-36M",
+                  "term": 36,
+                  "termCode": "36M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-60M",
+                  "term": 60,
+                  "termCode": "60M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Capital One 360",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.35,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-6M",
+                  "term": 6,
+                  "termCode": "6M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.35,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-9M",
+                  "term": 9,
+                  "termCode": "9M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 5,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-12M",
+                  "term": 12,
+                  "termCode": "12M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.7,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-18M",
+                  "term": 18,
+                  "termCode": "18M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.3,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.1,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-36M",
+                  "term": 36,
+                  "termCode": "36M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.05,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-60M",
+                  "term": 60,
+                  "termCode": "60M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Bank of America",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-3M",
+                  "term": 3,
+                  "termCode": "3M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "CD-6M",
+                  "term": 6,
+                  "termCode": "6M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "CD-9M",
+                  "term": 9,
+                  "termCode": "9M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-12M",
+                  "term": 12,
+                  "termCode": "12M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "CD-18M",
+                  "term": 18,
+                  "termCode": "18M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "CD-36M",
+                  "term": 36,
+                  "termCode": "36M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "CD-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-60M",
+                  "term": 60,
+                  "termCode": "60M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "American Express",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 1,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-18M",
+                  "term": 18,
+                  "termCode": "18M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 1.15,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-36M",
+                  "term": 36,
+                  "termCode": "36M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 1.2,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 3,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "CD-60M",
+                  "term": 60,
+                  "termCode": "60M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Ally Bank",
+              "effectiveDate": "02/21/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 2.96,
+                      "apy": 3,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 2.96,
+                      "apy": 3,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 2.96,
+                      "apy": 3,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-3M",
+                  "termCode": "3M",
+                  "term": 3,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-6M",
+                  "termCode": "6M",
+                  "term": 6,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-9M",
+                  "termCode": "9M",
+                  "term": 9,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 4.55,
+                      "apy": 4.65,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.55,
+                      "apy": 4.65,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.55,
+                      "apy": 4.65,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-12M",
+                  "termCode": "12M",
+                  "term": 12,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-18M",
+                  "termCode": "18M",
+                  "term": 18,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-24M",
+                  "termCode": "24M",
+                  "term": 24,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 3.92,
+                      "apy": 4,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 3.92,
+                      "apy": 4,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 3.92,
+                      "apy": 4,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-36M",
+                  "termCode": "36M",
+                  "term": 36,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-48M",
+                  "termCode": "48M",
+                  "term": 48,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 3.83,
+                      "apy": 3.9,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 3.83,
+                      "apy": 3.9,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 3.83,
+                      "apy": 3.9,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "CD-60M",
+                  "termCode": "60M",
+                  "term": 60,
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rateId": "NCD",
+          "productCode": "NCD",
+          "banks": [
+            {
+              "bankName": "CIT Bank",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.9,
+                      "max": 999999999.99,
+                      "min": 1000
+                    }
+                  ],
+                  "termId": "NCD-11M",
+                  "term": 11,
+                  "termCode": "11M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Ally Bank",
+              "effectiveDate": "02/21/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 4.07,
+                      "apy": 4.15,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.07,
+                      "apy": 4.15,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.07,
+                      "apy": 4.15,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "NCD-11M",
+                  "termCode": "11M",
+                  "term": 11,
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rateId": "SCD",
+          "productCode": "SCD",
+          "banks": [
+            {
+              "bankName": "Ally Bank",
+              "effectiveDate": "02/21/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "SCD-8M",
+                  "termCode": "8M",
+                  "term": 8,
+                  "termEndDate": "2024-03-21",
+                  "termStartDate": "2023-09-19"
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 4.55,
+                      "apy": 4.65,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.55,
+                      "apy": 4.65,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.55,
+                      "apy": 4.65,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "SCD-14M",
+                  "termCode": "14M",
+                  "term": 14,
+                  "termEndDate": "2024-03-21",
+                  "termStartDate": "2023-06-14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rateId": "IRAHY",
+          "productCode": "IRAHY",
+          "banks": [
+            {
+              "bankName": "Wells Fargo",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 9999,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 4999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 99999,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "IRAHY-3M",
+                  "term": 3,
+                  "termCode": "3M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 9999,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 4999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "IRAHY-6M",
+                  "term": 6,
+                  "termCode": "6M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 4999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 9999,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 49999,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAHY-9M",
+                  "term": 9,
+                  "termCode": "9M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 4999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 9999,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 99999,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "IRAHY-12M",
+                  "term": 12,
+                  "termCode": "12M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 9999,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 4999,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "IRAHY-18M",
+                  "term": 18,
+                  "termCode": "18M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 4999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 9999,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 99999,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "IRAHY-36M",
+                  "term": 36,
+                  "termCode": "36M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 4999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 9999,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 49999,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAHY-60M",
+                  "term": 60,
+                  "termCode": "60M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Citibank",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 5.13,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.13,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.13,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.13,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.13,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.13,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.13,
+                      "max": 499999,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "IRAHY-3M",
+                  "term": 3,
+                  "termCode": "3M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 5.02,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.02,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.02,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.02,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.02,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.02,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 5.02,
+                      "max": 9999,
+                      "min": 1
+                    }
+                  ],
+                  "termId": "IRAHY-6M",
+                  "term": 6,
+                  "termCode": "6M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.71,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.71,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.71,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.71,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.71,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.71,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.71,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    }
+                  ],
+                  "termId": "IRAHY-9M",
+                  "term": 9,
+                  "termCode": "9M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 4.6,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.6,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.6,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.6,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.6,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.6,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 4.6,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    }
+                  ],
+                  "termId": "IRAHY-12M",
+                  "term": 12,
+                  "termCode": "12M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "IRAHY-18M",
+                  "term": 18,
+                  "termCode": "18M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 0,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "IRAHY-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "IRAHY-36M",
+                  "term": 36,
+                  "termCode": "36M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "IRAHY-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999,
+                      "min": 500000
+                    }
+                  ],
+                  "termId": "IRAHY-60M",
+                  "term": 60,
+                  "termCode": "60M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Chase",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    }
+                  ],
+                  "termId": "IRAHY-3M",
+                  "term": 3,
+                  "termCode": "3M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    }
+                  ],
+                  "termId": "IRAHY-6M",
+                  "term": 6,
+                  "termCode": "6M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "IRAHY-9M",
+                  "term": 9,
+                  "termCode": "9M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "IRAHY-12M",
+                  "term": 12,
+                  "termCode": "12M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "IRAHY-18M",
+                  "term": 18,
+                  "termCode": "18M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "IRAHY-36M",
+                  "term": 36,
+                  "termCode": "36M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "IRAHY-60M",
+                  "term": 60,
+                  "termCode": "60M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Bank of America",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "IRAHY-6M",
+                  "term": 6,
+                  "termCode": "6M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "IRAHY-9M",
+                  "term": 9,
+                  "termCode": "9M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "IRAHY-12M",
+                  "term": 12,
+                  "termCode": "12M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "IRAHY-18M",
+                  "term": 18,
+                  "termCode": "18M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "IRAHY-36M",
+                  "term": 36,
+                  "termCode": "36M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "IRAHY-60M",
+                  "term": 60,
+                  "termCode": "60M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Ally Bank",
+              "effectiveDate": "02/21/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 2.96,
+                      "apy": 3,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 2.96,
+                      "apy": 3,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 2.96,
+                      "apy": 3,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAHY-3M",
+                  "termCode": "3M",
+                  "term": 3,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAHY-6M",
+                  "termCode": "6M",
+                  "term": 6,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAHY-9M",
+                  "termCode": "9M",
+                  "term": 9,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 4.55,
+                      "apy": 4.65,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.55,
+                      "apy": 4.65,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.55,
+                      "apy": 4.65,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAHY-12M",
+                  "termCode": "12M",
+                  "term": 12,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.35,
+                      "apy": 4.45,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAHY-18M",
+                  "termCode": "18M",
+                  "term": 18,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 3.92,
+                      "apy": 4,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 3.92,
+                      "apy": 4,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 3.92,
+                      "apy": 4,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAHY-36M",
+                  "termCode": "36M",
+                  "term": 36,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 3.83,
+                      "apy": 3.9,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 3.83,
+                      "apy": 3.9,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 3.83,
+                      "apy": 3.9,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAHY-60M",
+                  "termCode": "60M",
+                  "term": 60,
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rateId": "IRARYR",
+          "productCode": "IRARYR",
+          "banks": [
+            {
+              "bankName": "Wells Fargo",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 4999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 9999,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 100000
+                    }
+                  ],
+                  "termId": "IRARYR-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 9999,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 4999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 24999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "IRARYR-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Citibank",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 999999,
+                      "min": 500000
+                    }
+                  ],
+                  "termId": "IRARYR-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 2.5,
+                      "max": 999999,
+                      "min": 500000
+                    }
+                  ],
+                  "termId": "IRARYR-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Chase",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    }
+                  ],
+                  "termId": "IRARYR-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRARYR-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Bank of America",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "IRARYR-24M",
+                  "term": 24,
+                  "termCode": "24M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.03,
+                      "max": 99999,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "IRARYR-48M",
+                  "term": 48,
+                  "termCode": "48M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Ally Bank",
+              "effectiveDate": "02/21/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRARYR-24M",
+                  "termCode": "24M",
+                  "term": 24,
+                  "termStartDate": null,
+                  "termEndDate": null
+                },
+                {
+                  "rates": [
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 3.68,
+                      "apy": 3.75,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRARYR-48M",
+                  "termCode": "48M",
+                  "term": 48,
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rateId": "DDA",
+          "productCode": "DDA",
+          "banks": [
+            {
+              "bankName": "Wells Fargo",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 99999,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "DDA-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "PNC Bank",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999.99,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999.99,
+                      "min": 10000
+                    }
+                  ],
+                  "termId": "DDA-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Citibank",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "DDA-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Chase",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 4999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 25000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 9999,
+                      "min": 5000
+                    }
+                  ],
+                  "termId": "DDA-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Capital One 360",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.1,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.1,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.1,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.1,
+                      "max": 9999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.1,
+                      "max": 49999,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "DDA-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Bank of America",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 49999,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.02,
+                      "max": 999999999.99,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.02,
+                      "max": 99999,
+                      "min": 50000
+                    }
+                  ],
+                  "termId": "DDA-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Ally Bank",
+              "effectiveDate": "02/21/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0.1,
+                      "apy": 0.1,
+                      "max": 14999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 0.25,
+                      "apy": 0.25,
+                      "max": 999999999.99,
+                      "min": 15000
+                    }
+                  ],
+                  "termId": "DDA-0M",
+                  "termCode": "0M",
+                  "term": 0,
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rateId": "MMDA",
+          "productCode": "MMDA",
+          "banks": [
+            {
+              "bankName": "PNC Bank",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 1.05,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.6,
+                      "max": 499999,
+                      "min": 250000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.75,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1,
+                      "max": 999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.5,
+                      "max": 249999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1.65,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1,
+                      "max": 9999,
+                      "min": 1000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 1,
+                      "max": 49999,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "MMDA-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Citibank",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.2,
+                      "max": 24999,
+                      "min": 10000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.2,
+                      "max": 499999,
+                      "min": 100000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.2,
+                      "max": 999999999.99,
+                      "min": 1000000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.2,
+                      "max": 99999,
+                      "min": 50000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.2,
+                      "max": 999999,
+                      "min": 500000
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.2,
+                      "max": 9999,
+                      "min": 1
+                    },
+                    {
+                      "apr": 0,
+                      "apy": 0.2,
+                      "max": 49999,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "MMDA-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Ally Bank",
+              "effectiveDate": "02/21/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.31,
+                      "apy": 4.4,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "MMDA-0M",
+                  "termCode": "0M",
+                  "term": 0,
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rateId": "IRAOSA",
+          "productCode": "IRAOSA",
+          "banks": [
+            {
+              "bankName": "Wells Fargo",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "IRAOSA-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Ally Bank",
+              "effectiveDate": "02/21/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 4.26,
+                      "apy": 4.35,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.26,
+                      "apy": 4.35,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.26,
+                      "apy": 4.35,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "IRAOSA-0M",
+                  "termCode": "0M",
+                  "term": 0,
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rateId": "OSAV",
+          "productCode": "OSAV",
+          "banks": [
+            {
+              "bankName": "Wells Fargo",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "OSAV-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Chase",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 25
+                    }
+                  ],
+                  "termId": "OSAV-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Bank of America",
+              "effectiveDate": "2/16/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 0,
+                      "apy": 0.01,
+                      "max": 999999999.99,
+                      "min": 0
+                    }
+                  ],
+                  "termId": "OSAV-0M",
+                  "term": 0,
+                  "termCode": "0M",
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            },
+            {
+              "bankName": "Ally Bank",
+              "effectiveDate": "02/21/2024",
+              "terms": [
+                {
+                  "rates": [
+                    {
+                      "apr": 4.26,
+                      "apy": 4.35,
+                      "max": 4999.99,
+                      "min": 0
+                    },
+                    {
+                      "apr": 4.26,
+                      "apy": 4.35,
+                      "max": 24999.99,
+                      "min": 5000
+                    },
+                    {
+                      "apr": 4.26,
+                      "apy": 4.35,
+                      "max": 999999999.99,
+                      "min": 25000
+                    }
+                  ],
+                  "termId": "OSAV-0M",
+                  "termCode": "0M",
+                  "term": 0,
+                  "termStartDate": null,
+                  "termEndDate": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
